@@ -1,0 +1,21 @@
+<html ng-app="yourlifeinweeksApp">
+<head>
+	<title>Your Life In Weeks</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+	<script src="js/project.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<head/>
+
+<body ng-controller="WeeksCtrl">
+
+<div id="header">
+Header
+</div>
+
+<div id="weeks">
+	<div class="week" ng-repeat="w in weeks"></div>
+	<br>
+</div>
+
+</body>
+</html>
