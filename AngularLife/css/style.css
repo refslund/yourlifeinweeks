@@ -19,6 +19,6 @@ table {
 }
 table td > div {
     overflow: hidden;
-	width:  30px;
-	height: 30px;
+	width:  6px;
+	height: 6px;
 }
