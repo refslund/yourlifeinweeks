@@ -1,6 +1,11 @@
 var weeksApp = angular.module('yourlifeinweeksApp', []);
 
 weeksApp.controller('WeeksCtrl', function ($scope) {
+  
+  $scope.range = function(n) {
+    return new Array(n);
+  };
+  
   $scope.weeks = [
                   {'name': '1'},
                   {'name': '2'},
@@ -15,6 +20,21 @@ weeksApp.controller('WeeksCtrl', function ($scope) {
                   {'name': '11'},
                   {'name': '12'},
                   {'name': '13'},
-                  {'name': '14'}
+                  {'name': '14'},
+                  {'name': '15'},
+                  {'name': '16'},
+                  {'name': '17'},
+                  {'name': '18'},
+                  {'name': '19'},
+                  {'name': '20'},
+                  {'name': '21'},
+                  {'name': '22'},
+                  {'name': '23'},
+                  {'name': '24'},
+                  {'name': '14'},
+                  {'name': '25'},
+                  {'name': '26'},
+                  {'name': '27'},
+                  {'name': '28'},
   ];
 });

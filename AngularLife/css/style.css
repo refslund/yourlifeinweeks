@@ -5,22 +5,20 @@ body {
 #header {
     text-align: center;
     font-size: 150%;
-    padding-bottom: 50;
+    padding: 25;
 }
 
-#weeks {
-	width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
+
+.week {
 	border: 1px solid lightgrey;
 }
 
-.week {
-	border: 1px solid black;
-	width: 8px;
-	height: 8px;
-	display: inline-block;
-	margin-left: 2px;
+table {
+	align: center;
+	border: 1px solid yellow;
+}
+table td > div {
+    overflow: hidden;
+	width:  30px;
+	height: 30px;
 }
