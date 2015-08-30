@@ -3,7 +3,10 @@ var weeksApp = angular.module('yourlifeinweeksApp', []);
 weeksApp.controller('WeeksCtrl', function ($scope) {
   
   $scope.range = function(n) {
-    return new Array(n);
+      var result = [];
+      for (var i = 0; i <= n; i++)
+          result.push(i);
+      return result;
   };
   
   $scope.weeks = [

@@ -23,14 +23,14 @@ Your Life In Weeks
   <!-- center main div -->
   <div class="col-md-6">
 
-  <!-- TODO repeat med eksplicit y,w index 
+  <!-- TODO repeat med eksplicit y og w index -OK 
             og function (y,w) -> dato
             og function (dato) -> event (inkl farve) -->
   <div align="center">
   <table>
-    <tr class="year_row" ng-repeat="y in range(90) track by $index">
-      <td class="week" ng-repeat="w in range(52) track by $index">
-        <div>{{$index}}</div>
+    <tr class="year_row" ng-repeat="y in range(90)">
+      <td class="week" ng-repeat="w in range(52) track by w">
+        <div>{{y}}-{{w}}</div>
       </td>
     </tr>
   </table>
